@@ -1,0 +1,22 @@
+2025-03-02T20:28:14.768Z [Notification Service] [server.listen] Socket.io server listening on port 5003
+2025-03-02T20:28:14.806Z [Notification Service] [startNotificationService] Waiting for messages in queue: booking_confirmed
+2025-03-02T20:28:53.240Z [Notification Service] [channel.consume] Received booking confirmation event: {"booking_id":5,"username":"He","status":"CONFIRMED"}
+2025-03-02T20:28:53.240Z [Notification Service] [sendConfirmationEmail] Sending confirmation email to He for booking 5 with status CONFIRMED
+2025-03-02T20:33:57.698Z [Notification Service] [server.listen] Socket.io server listening on port 5003
+2025-03-02T20:33:57.733Z [Notification Service] [startNotificationService] Waiting for messages in queue: booking_confirmed
+2025-03-02T20:48:17.827Z [Notification Service] [server.listen] Socket.io server listening on port 5003
+2025-03-02T20:48:17.865Z [Notification Service] [startNotificationService] Waiting for messages in queue: booking_confirmed
+2025-03-02T20:50:55.064Z [Notification Service] [server.listen] Socket.io server listening on port 5003
+2025-03-02T20:50:55.101Z [Notification Service] [startNotificationService] Waiting for messages in queue: booking_confirmed
+2025-03-02T20:52:42.965Z [Notification Service] [server.listen] Socket.io server listening on port 5003
+2025-03-02T20:52:42.996Z [Notification Service] [startNotificationService] Waiting for messages in queue: booking_confirmed
+2025-03-02T20:56:32.309Z [Notification Service] [server.listen] Socket.io server listening on port 5003
+2025-03-02T20:56:32.359Z [Notification Service] [startNotificationService] Waiting for messages in queue: booking_confirmed
+2025-03-03T10:07:00.519Z [Notification Service] [server.listen] Socket.io server listening on port 5003
+2025-03-03T10:07:00.677Z [Notification Service] [startNotificationService] Waiting for messages in queue: booking_confirmed
+2025-03-03T10:08:31.747Z [Notification Service] [channel.consume] Received booking confirmation event: {"booking_id":1,"username":"Taha","status":"CONFIRMED"}
+2025-03-03T10:08:31.748Z [Notification Service] [sendConfirmationEmail] Sending confirmation email to Taha for booking 1 with status CONFIRMED
+2025-03-03T10:08:35.832Z [Notification Service] [channel.consume] Received booking confirmation event: {"booking_id":2,"username":"Taha","status":"CONFIRMED"}
+2025-03-03T10:08:35.833Z [Notification Service] [sendConfirmationEmail] Sending confirmation email to Taha for booking 2 with status CONFIRMED
+2025-03-03T10:08:54.271Z [Notification Service] [channel.consume] Received booking confirmation event: {"booking_id":3,"username":"Taha","status":"CONFIRMED"}
+2025-03-03T10:08:54.271Z [Notification Service] [sendConfirmationEmail] Sending confirmation email to Taha for booking 3 with status CONFIRMED

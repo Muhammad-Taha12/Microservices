@@ -1,0 +1,36 @@
+2025-03-02T20:28:14.869Z [Booking Service] [app.listen] Booking backend running on port 5002
+2025-03-02T20:28:24.703Z [Booking Service] [GET /bookings] Retrieved all bookings successfully
+2025-03-02T20:28:50.533Z [Booking Service] [GET /bookings] Retrieved all bookings successfully
+2025-03-02T20:28:51.877Z [Booking Service] [POST /bookings] Attempting to create booking for user_id: 2, event_id: 1
+2025-03-02T20:28:51.877Z [Booking Service] [POST /bookings] Checking event availability via http://localhost:5001/events/1/availability
+2025-03-02T20:28:51.900Z [Booking Service] [POST /bookings] Created new booking with id 5
+2025-03-02T20:28:53.209Z [Booking Service] [PATCH /bookings/:id] Attempting to update booking id 5 to status confirmed
+2025-03-02T20:28:53.233Z [Booking Service] [publishBookingConfirmation] Published booking confirmation event: {"booking_id":5,"username":"He","status":"CONFIRMED"}
+2025-03-02T20:28:53.237Z [Booking Service] [PATCH /bookings/:id] Updated booking id 5 to confirmed and published event
+2025-03-02T20:33:57.979Z [Booking Service] [app.listen] Booking backend running on port 5002
+2025-03-02T20:34:18.607Z [Booking Service] [GET /bookings] Retrieved all bookings successfully
+2025-03-02T20:34:25.818Z [Booking Service] [POST /bookings] Attempting to create booking for user_id: 1, event_id: 5
+2025-03-02T20:34:25.819Z [Booking Service] [POST /bookings] Checking event availability via http://localhost:5001/events/5/availability
+2025-03-02T20:34:25.845Z [Booking Service] [POST /bookings] Created new booking with id 1
+2025-03-02T20:48:18.084Z [Booking Service] [app.listen] Booking backend running on port 5002
+2025-03-02T20:50:55.263Z [Booking Service] [app.listen] Booking backend running on port 5002
+2025-03-02T20:52:43.091Z [Booking Service] [app.listen] Booking backend running on port 5002
+2025-03-02T20:56:32.430Z [Booking Service] [app.listen] Booking backend running on port 5002
+2025-03-02T20:56:42.668Z [Booking Service] [GET /bookings] Retrieved all bookings successfully
+2025-03-03T10:07:00.984Z [Booking Service] [app.listen] Booking backend running on port 5002
+2025-03-03T10:08:12.280Z [Booking Service] [GET /bookings] Retrieved all bookings successfully
+2025-03-03T10:08:26.132Z [Booking Service] [POST /bookings] Attempting to create booking for user_id: 1, event_id: 8
+2025-03-03T10:08:26.133Z [Booking Service] [POST /bookings] Checking event availability via http://localhost:5001/events/8/availability
+2025-03-03T10:08:26.268Z [Booking Service] [POST /bookings] Created new booking with id 2
+2025-03-03T10:08:31.678Z [Booking Service] [PATCH /bookings/:id] Attempting to update booking id 1 to status confirmed
+2025-03-03T10:08:31.724Z [Booking Service] [publishBookingConfirmation] Published booking confirmation event: {"booking_id":1,"username":"Taha","status":"CONFIRMED"}
+2025-03-03T10:08:31.735Z [Booking Service] [PATCH /bookings/:id] Updated booking id 1 to confirmed and published event
+2025-03-03T10:08:35.779Z [Booking Service] [PATCH /bookings/:id] Attempting to update booking id 2 to status confirmed
+2025-03-03T10:08:35.808Z [Booking Service] [publishBookingConfirmation] Published booking confirmation event: {"booking_id":2,"username":"Taha","status":"CONFIRMED"}
+2025-03-03T10:08:35.823Z [Booking Service] [PATCH /bookings/:id] Updated booking id 2 to confirmed and published event
+2025-03-03T10:08:52.080Z [Booking Service] [POST /bookings] Attempting to create booking for user_id: 1, event_id: 1
+2025-03-03T10:08:52.080Z [Booking Service] [POST /bookings] Checking event availability via http://localhost:5001/events/1/availability
+2025-03-03T10:08:52.291Z [Booking Service] [POST /bookings] Created new booking with id 3
+2025-03-03T10:08:54.245Z [Booking Service] [PATCH /bookings/:id] Attempting to update booking id 3 to status confirmed
+2025-03-03T10:08:54.257Z [Booking Service] [publishBookingConfirmation] Published booking confirmation event: {"booking_id":3,"username":"Taha","status":"CONFIRMED"}
+2025-03-03T10:08:54.259Z [Booking Service] [PATCH /bookings/:id] Updated booking id 3 to confirmed and published event

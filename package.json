@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "scripts": {
+    "start:users-backend": "cd Users/backend && node server.js",
+    "start:events-backend": "cd Events/backend && node server.js",
+    "start:booking-backend": "cd Booking/backend && node server.js",
+    "start:notification": "cd Notifications/backend && node server.js",
+    "start:frontend": "npm start --prefix Users/frontend",
+    "start:events-frontend": "npm start --prefix Events/frontend",
+    "start:booking-frontend": "npm start --prefix Booking/frontend",
+    "start:users": "concurrently \"npm run start:users-backend\" \"npm run start:events-backend\" \"npm run start:booking-backend\" \"npm run start:notification\" \"npm run start:frontend\"",
+    "start:events": "concurrently \"npm run start:events-backend\" \"npm run start:events-frontend\"",
+    "start:booking": "concurrently \"npm run start:booking-backend\" \"npm run start:booking-frontend\""
+  }
+}

@@ -1,0 +1,63 @@
+2025-03-02T20:28:14.849Z [Users Service] [app.listen] Users backend running on port 5000
+2025-03-02T20:28:23.496Z [Users Service] [POST /login] Attempting login for username: MT
+2025-03-02T20:28:23.631Z [Users Service] [POST /login] User login successful for user id: 1
+2025-03-02T20:28:23.665Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-02T20:28:23.669Z [Users Service] [GET /dashboard] User info retrieved for user id: 1
+2025-03-02T20:28:23.673Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-02T20:28:23.675Z [Users Service] [GET /dashboard] User info retrieved for user id: 1
+2025-03-02T20:28:49.126Z [Users Service] [POST /login] Attempting login for username: He
+2025-03-02T20:28:49.240Z [Users Service] [POST /login] User login successful for user id: 2
+2025-03-02T20:28:49.305Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-02T20:28:49.309Z [Users Service] [GET /dashboard] User info retrieved for user id: 2
+2025-03-02T20:28:49.315Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-02T20:28:49.318Z [Users Service] [GET /dashboard] User info retrieved for user id: 2
+2025-03-02T20:33:57.921Z [Users Service] [app.listen] Users backend running on port 5000
+2025-03-02T20:34:07.995Z [Users Service] [POST /login] Attempting login for username: Taha
+2025-03-02T20:34:08.064Z [Users Service] [POST /login] Login failed - User not found: Taha
+2025-03-02T20:34:12.505Z [Users Service] [POST /register] Attempting registration for username: Taha
+2025-03-02T20:34:12.588Z [Users Service] [POST /register] User registered successfully with id: 1
+2025-03-02T20:34:17.239Z [Users Service] [POST /login] Attempting login for username: Taha
+2025-03-02T20:34:17.312Z [Users Service] [POST /login] User login successful for user id: 1
+2025-03-02T20:34:17.357Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-02T20:34:17.363Z [Users Service] [GET /dashboard] User info retrieved for user id: 1
+2025-03-02T20:34:17.368Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-02T20:34:17.373Z [Users Service] [GET /dashboard] User info retrieved for user id: 1
+2025-03-02T20:48:18.076Z [Users Service] [app.listen] Users backend running on port 5000
+2025-03-02T20:48:30.176Z [Users Service] [POST /login] Attempting login for username: MT
+2025-03-02T20:48:30.247Z [Users Service] [POST /login] Error in POST /login: password authentication failed for user "postgres"
+2025-03-02T20:48:32.698Z [Users Service] [POST /login] Attempting login for username: MT
+2025-03-02T20:48:32.735Z [Users Service] [POST /login] Error in POST /login: password authentication failed for user "postgres"
+2025-03-02T20:48:42.749Z [Users Service] [POST /login] Attempting login for username: MT
+2025-03-02T20:48:42.793Z [Users Service] [POST /login] Error in POST /login: password authentication failed for user "postgres"
+2025-03-02T20:50:55.270Z [Users Service] [app.listen] Users backend running on port 5000
+2025-03-02T20:51:04.538Z [Users Service] [POST /login] Attempting login for username: MT
+2025-03-02T20:51:04.601Z [Users Service] [POST /login] Login failed - User not found: MT
+2025-03-02T20:51:06.108Z [Users Service] [POST /login] Attempting login for username: MT
+2025-03-02T20:51:06.110Z [Users Service] [POST /login] Login failed - User not found: MT
+2025-03-02T20:51:23.398Z [Users Service] [POST /login] Attempting login for username: Taha
+2025-03-02T20:51:23.521Z [Users Service] [POST /login] Error in POST /login: SECRET_KEY is not defined
+2025-03-02T20:51:27.805Z [Users Service] [POST /register] Attempting registration for username: MT
+2025-03-02T20:51:27.864Z [Users Service] [POST /register] User registered successfully with id: 2
+2025-03-02T20:51:38.675Z [Users Service] [POST /login] Attempting login for username: MT
+2025-03-02T20:51:38.768Z [Users Service] [POST /login] Error in POST /login: SECRET_KEY is not defined
+2025-03-02T20:51:49.508Z [Users Service] [POST /login] Attempting login for username: MT
+2025-03-02T20:51:49.603Z [Users Service] [POST /login] Error in POST /login: SECRET_KEY is not defined
+2025-03-02T20:52:43.110Z [Users Service] [app.listen] Users backend running on port 5000
+2025-03-02T20:52:51.021Z [Users Service] [POST /login] Attempting login for username: MT
+2025-03-02T20:52:51.075Z [Users Service] [POST /login] Error in POST /login: password authentication failed for user "postgres"
+2025-03-02T20:52:55.092Z [Users Service] [POST /register] Attempting registration for username: ew
+2025-03-02T20:52:55.213Z [Users Service] [POST /register] Error in POST /register: password authentication failed for user "postgres"
+2025-03-02T20:56:32.430Z [Users Service] [app.listen] Users backend running on port 5000
+2025-03-02T20:56:41.289Z [Users Service] [POST /login] Attempting login for username: MT
+2025-03-02T20:56:41.420Z [Users Service] [POST /login] User login successful for user id: 2
+2025-03-02T20:56:41.449Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-02T20:56:41.454Z [Users Service] [GET /dashboard] User info retrieved for user id: 2
+2025-03-02T20:56:41.458Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-02T20:56:41.460Z [Users Service] [GET /dashboard] User info retrieved for user id: 2
+2025-03-03T10:07:00.967Z [Users Service] [app.listen] Users backend running on port 5000
+2025-03-03T10:08:05.693Z [Users Service] [POST /login] Attempting login for username: Taha
+2025-03-03T10:08:06.076Z [Users Service] [POST /login] User login successful for user id: 1
+2025-03-03T10:08:06.177Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-03T10:08:06.183Z [Users Service] [GET /dashboard] User info retrieved for user id: 1
+2025-03-03T10:08:06.192Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-03T10:08:06.197Z [Users Service] [GET /dashboard] User info retrieved for user id: 1

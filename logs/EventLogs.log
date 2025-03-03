@@ -1,0 +1,18 @@
+2025-03-02T20:22:27.301Z [Events Service] [app.listen] Events backend running on port 5001
+2025-03-02T20:22:42.015Z [Events Service] [GET /events] Retrieved all events successfully
+2025-03-02T20:28:14.719Z [Events Service] [app.listen] Events backend running on port 5001
+2025-03-02T20:28:24.593Z [Events Service] [GET /events] Retrieved all events successfully
+2025-03-02T20:28:50.531Z [Events Service] [GET /events] Retrieved all events successfully
+2025-03-02T20:28:51.887Z [Events Service] [GET /events/:eventId/availability] Retrieved availability for event 1
+2025-03-02T20:33:57.774Z [Events Service] [app.listen] Events backend running on port 5001
+2025-03-02T20:34:18.609Z [Events Service] [GET /events] Retrieved all events successfully
+2025-03-02T20:34:25.833Z [Events Service] [GET /events/:eventId/availability] Retrieved availability for event 5
+2025-03-02T20:48:17.896Z [Events Service] [app.listen] Events backend running on port 5001
+2025-03-02T20:50:55.099Z [Events Service] [app.listen] Events backend running on port 5001
+2025-03-02T20:52:43.028Z [Events Service] [app.listen] Events backend running on port 5001
+2025-03-02T20:56:32.309Z [Events Service] [app.listen] Events backend running on port 5001
+2025-03-02T20:56:42.673Z [Events Service] [GET /events] Retrieved all events successfully
+2025-03-03T10:07:00.652Z [Events Service] [app.listen] Events backend running on port 5001
+2025-03-03T10:08:12.276Z [Events Service] [GET /events] Retrieved all events successfully
+2025-03-03T10:08:26.206Z [Events Service] [GET /events/:eventId/availability] Retrieved availability for event 8
+2025-03-03T10:08:52.255Z [Events Service] [GET /events/:eventId/availability] Retrieved availability for event 1
