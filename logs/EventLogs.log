@@ -16,3 +16,30 @@
 2025-03-03T10:08:12.276Z [Events Service] [GET /events] Retrieved all events successfully
 2025-03-03T10:08:26.206Z [Events Service] [GET /events/:eventId/availability] Retrieved availability for event 8
 2025-03-03T10:08:52.255Z [Events Service] [GET /events/:eventId/availability] Retrieved availability for event 1
+2025-03-11T16:17:57.166Z [Events Service] [app.listen] Events backend running on port 5001
+2025-03-11T16:19:59.413Z [Events Service] [GET /events] Retrieved all events successfully
+2025-03-12T04:10:01.944Z [Events Service] [app.listen] Events backend running on port 5001
+2025-03-12T04:10:42.979Z [Events Service] [GET /events] Retrieved all events successfully
+2025-03-12T04:11:07.126Z [Events Service] [GET /events] Retrieved all events successfully
+2025-03-12T04:12:44.616Z [Events Service] [GET /events/:eventId/availability] Retrieved availability for event 1
+2025-03-16T08:50:02.092Z [Events Service] [app.listen] Events backend running on port 5001
+2025-03-16T08:50:17.762Z [Events Service] [GET /events] Retrieved all events successfully
+2025-03-16T08:50:49.115Z [Events Service] [GET /events] Retrieved all events successfully
+2025-03-16T09:03:21.942Z [Events Service] [GET /events] Retrieved all events successfully
+2025-03-16T09:04:12.810Z [Events Service] [app.listen] Events backend running on port 5001
+2025-03-16T09:06:36.159Z [Events Service] [app.listen] Events backend running on port 5001
+2025-03-16T09:06:47.127Z [Events Service] [GET /events] Retrieved all events successfully
+2025-03-16T09:06:47.137Z [Events Service] [GET /events] Retrieved all events successfully
+2025-03-16T09:06:55.085Z [Events Service] [POST /events] Error in POST /events: duplicate key value violates unique constraint "events_pkey"
+2025-03-16T09:06:57.007Z [Events Service] [POST /events] Error in POST /events: duplicate key value violates unique constraint "events_pkey"
+2025-03-16T09:07:02.752Z [Events Service] [GET /events] Retrieved all events successfully
+2025-03-16T09:07:02.755Z [Events Service] [GET /events] Retrieved all events successfully
+2025-03-16T09:07:08.995Z [Events Service] [POST /events] Error in POST /events: duplicate key value violates unique constraint "events_pkey"
+2025-03-16T09:07:15.039Z [Events Service] [POST /events] Error in POST /events: duplicate key value violates unique constraint "events_pkey"
+2025-03-16T09:08:43.955Z [Events Service] [app.listen] Events backend running on port 5001
+2025-03-16T09:09:04.496Z [Events Service] [GET /events] Retrieved all events successfully
+2025-03-16T09:09:06.796Z [Events Service] [GET /events/:eventId/availability] Retrieved availability for event 7
+2025-03-16T09:09:45.504Z [Events Service] [GET /events] Retrieved all events successfully
+2025-03-16T09:09:48.884Z [Events Service] [GET /events/:eventId/availability] Retrieved availability for event 1
+2025-03-16T09:12:49.092Z [Events Service] [GET /events/:eventId/availability] Retrieved availability for event 3
+2025-03-19T04:40:34.801Z [Events Service] [app.listen] Events backend running on port 5001

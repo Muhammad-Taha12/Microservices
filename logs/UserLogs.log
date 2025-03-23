@@ -61,3 +61,56 @@
 2025-03-03T10:08:06.183Z [Users Service] [GET /dashboard] User info retrieved for user id: 1
 2025-03-03T10:08:06.192Z [Users Service] [GET /dashboard] Fetching user info for dashboard
 2025-03-03T10:08:06.197Z [Users Service] [GET /dashboard] User info retrieved for user id: 1
+2025-03-11T16:17:57.356Z [Users Service] [app.listen] Users backend running on port 5000
+2025-03-11T16:19:58.083Z [Users Service] [POST /login] Attempting login for username: MT
+2025-03-11T16:19:58.467Z [Users Service] [POST /login] User login successful for user id: 2
+2025-03-11T16:19:58.500Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-11T16:19:58.508Z [Users Service] [GET /dashboard] User info retrieved for user id: 2
+2025-03-11T16:19:58.512Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-11T16:19:58.517Z [Users Service] [GET /dashboard] User info retrieved for user id: 2
+2025-03-12T04:10:02.152Z [Users Service] [app.listen] Users backend running on port 5000
+2025-03-12T04:10:38.842Z [Users Service] [POST /login] Attempting login for username: MT
+2025-03-12T04:10:39.144Z [Users Service] [POST /login] User login successful for user id: 2
+2025-03-12T04:10:39.173Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-12T04:10:39.183Z [Users Service] [GET /dashboard] User info retrieved for user id: 2
+2025-03-12T04:10:39.186Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-12T04:10:39.191Z [Users Service] [GET /dashboard] User info retrieved for user id: 2
+2025-03-16T08:50:02.283Z [Users Service] [app.listen] Users backend running on port 5000
+2025-03-16T08:50:14.307Z [Users Service] [POST /login] Attempting login for username: Taha
+2025-03-16T08:50:14.450Z [Users Service] [POST /login] User login successful for user id: 1
+2025-03-16T08:50:14.505Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-16T08:50:14.510Z [Users Service] [GET /dashboard] User info retrieved for user id: 1
+2025-03-16T08:50:14.513Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-16T08:50:14.517Z [Users Service] [GET /dashboard] User info retrieved for user id: 1
+2025-03-16T08:50:48.181Z [Users Service] [POST /login] Attempting login for username: Taha
+2025-03-16T08:50:48.274Z [Users Service] [POST /login] User login successful for user id: 1
+2025-03-16T08:50:48.312Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-16T08:50:48.314Z [Users Service] [GET /dashboard] User info retrieved for user id: 1
+2025-03-16T08:50:48.316Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-16T08:50:48.319Z [Users Service] [GET /dashboard] User info retrieved for user id: 1
+2025-03-16T08:59:12.738Z [Users Service] [POST /register] Attempting registration for username: Hashim
+2025-03-16T08:59:12.854Z [Users Service] [POST /register] User registered successfully with id: 3
+2025-03-16T09:03:07.396Z [Users Service] [POST /register] Attempting registration for username: ArfatDemo
+2025-03-16T09:03:07.535Z [Users Service] [POST /register] User registered successfully with id: 4
+2025-03-16T09:03:18.537Z [Users Service] [POST /login] Attempting login for username: ArfatDemo
+2025-03-16T09:03:18.676Z [Users Service] [POST /login] User login successful for user id: 4
+2025-03-16T09:03:18.731Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-16T09:03:18.734Z [Users Service] [GET /dashboard] User info retrieved for user id: 4
+2025-03-16T09:03:18.738Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-16T09:03:18.741Z [Users Service] [GET /dashboard] User info retrieved for user id: 4
+2025-03-16T09:08:44.509Z [Users Service] [app.listen] Users backend running on port 5000
+2025-03-16T09:09:03.532Z [Users Service] [POST /login] Attempting login for username: Taha
+2025-03-16T09:09:03.699Z [Users Service] [POST /login] User login successful for user id: 1
+2025-03-16T09:09:03.722Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-16T09:09:03.730Z [Users Service] [GET /dashboard] User info retrieved for user id: 1
+2025-03-16T09:09:03.736Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-16T09:09:03.739Z [Users Service] [GET /dashboard] User info retrieved for user id: 1
+2025-03-16T09:09:39.577Z [Users Service] [POST /login] Attempting login for username: ArhatDemo
+2025-03-16T09:09:39.629Z [Users Service] [POST /login] Login failed - User not found: ArhatDemo
+2025-03-16T09:09:44.359Z [Users Service] [POST /login] Attempting login for username: ArfatDemo
+2025-03-16T09:09:44.436Z [Users Service] [POST /login] User login successful for user id: 4
+2025-03-16T09:09:44.483Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-16T09:09:44.486Z [Users Service] [GET /dashboard] User info retrieved for user id: 4
+2025-03-16T09:09:44.489Z [Users Service] [GET /dashboard] Fetching user info for dashboard
+2025-03-16T09:09:44.493Z [Users Service] [GET /dashboard] User info retrieved for user id: 4
+2025-03-19T04:40:35.046Z [Users Service] [app.listen] Users backend running on port 5000

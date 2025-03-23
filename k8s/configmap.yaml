@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: OnlineEventBookingMuhammadTaha
+data:
+  DB_HOST: "postgres"
+  DB_PORT: "5432"
+  DB_NAME: "devops"
+  DB_USER: "postgres"
+  
+  USERS_API_URL: "http://user-service:5000"
+  EVENTS_API_URL: "http://event-service:5001"
+  BOOKING_API_URL: "http://booking-service:5002"
+  NOTIFICATIONS_API_URL: "http://notification-service:5003"
+  
+  RABBITMQ_HOST: "rabbitmq"
+  RABBITMQ_PORT: "5672"

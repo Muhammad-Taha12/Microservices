@@ -72,5 +72,6 @@ app.delete('/events/:id', async (req, res) => {
 
 const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => {
+  console.log('Events backend running on port ${PORT}');
   logger.info(`Events backend running on port ${PORT}`, { functionName: 'app.listen' });
 });

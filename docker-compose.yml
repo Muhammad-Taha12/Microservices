@@ -1,0 +1,90 @@
+services:
+  postgres:
+    image: postgres:14-alpine
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Pass123
+      POSTGRES_DB: devops
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - backend
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - backend
+
+  user-service:
+    build: ./Users/backend
+    container_name: Users
+    env_file: ./Users/backend/.env
+    ports:
+      - "5000:5000"
+    depends_on:
+      - postgres
+    networks:
+      - backend
+
+  event-service:
+    build: ./Events/backend
+    container_name: Events
+    env_file: ./Events/backend/.env
+    ports:
+      - "5001:5001"
+    depends_on:
+      - postgres
+    networks:
+      - backend
+
+  booking-service:
+    build: ./Booking/backend
+    container_name: Booking
+    env_file: ./Booking/backend/.env
+    ports:
+      - "5002:5002"
+    depends_on:
+      - postgres
+    networks:
+      - backend
+
+  notification-service:
+    build: ./Notifications/backend
+    container_name: Notifications
+    env_file: ./Notifications/backend/.env
+    ports:
+      - "5003:5003"
+    depends_on:
+      - postgres
+      - rabbitmq
+    networks:
+      - backend
+
+  frontend-service:
+    build: ./Users/frontend
+    container_name: Frontend
+    ports:
+      - "5000:5000"
+    depends_on:
+      - Users
+      - Events
+      - Booking
+      - Notifications
+    networks:
+      - backend
+
+volumes:
+  pgdata:
+  mongodata:
+
+networks:
+  backend:
+    driver: bridge

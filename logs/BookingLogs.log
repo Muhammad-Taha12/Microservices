@@ -34,3 +34,37 @@
 2025-03-03T10:08:54.245Z [Booking Service] [PATCH /bookings/:id] Attempting to update booking id 3 to status confirmed
 2025-03-03T10:08:54.257Z [Booking Service] [publishBookingConfirmation] Published booking confirmation event: {"booking_id":3,"username":"Taha","status":"CONFIRMED"}
 2025-03-03T10:08:54.259Z [Booking Service] [PATCH /bookings/:id] Updated booking id 3 to confirmed and published event
+2025-03-11T16:17:57.293Z [Booking Service] [app.listen] Booking backend running on port 5002
+2025-03-11T16:19:59.397Z [Booking Service] [GET /bookings] Retrieved all bookings successfully
+2025-03-12T04:10:02.115Z [Booking Service] [app.listen] Booking backend running on port 5002
+2025-03-12T04:10:42.985Z [Booking Service] [GET /bookings] Retrieved all bookings successfully
+2025-03-12T04:11:07.126Z [Booking Service] [GET /bookings] Retrieved all bookings successfully
+2025-03-12T04:12:44.548Z [Booking Service] [POST /bookings] Attempting to create booking for user_id: 2, event_id: 1
+2025-03-12T04:12:44.548Z [Booking Service] [POST /bookings] Checking event availability via http://localhost:5001/events/1/availability
+2025-03-12T04:12:44.690Z [Booking Service] [POST /bookings] Created new booking with id 4
+2025-03-12T04:12:51.537Z [Booking Service] [PATCH /bookings/:id] Attempting to update booking id 4 to status confirmed
+2025-03-12T04:12:51.571Z [Booking Service] [publishBookingConfirmation] Published booking confirmation event: {"booking_id":4,"username":"MT","status":"CONFIRMED"}
+2025-03-12T04:12:51.582Z [Booking Service] [PATCH /bookings/:id] Updated booking id 4 to confirmed and published event
+2025-03-16T08:50:02.283Z [Booking Service] [app.listen] Booking backend running on port 5002
+2025-03-16T08:50:17.761Z [Booking Service] [GET /bookings] Retrieved all bookings successfully
+2025-03-16T08:50:49.115Z [Booking Service] [GET /bookings] Retrieved all bookings successfully
+2025-03-16T09:03:21.942Z [Booking Service] [GET /bookings] Retrieved all bookings successfully
+2025-03-16T09:08:44.399Z [Booking Service] [app.listen] Booking backend running on port 5002
+2025-03-16T09:09:04.601Z [Booking Service] [GET /bookings] Retrieved all bookings successfully
+2025-03-16T09:09:06.780Z [Booking Service] [POST /bookings] Attempting to create booking for user_id: 1, event_id: 7
+2025-03-16T09:09:06.780Z [Booking Service] [POST /bookings] Checking event availability via http://localhost:5001/events/7/availability
+2025-03-16T09:09:06.816Z [Booking Service] [POST /bookings] Created new booking with id 5
+2025-03-16T09:09:45.499Z [Booking Service] [GET /bookings] Retrieved all bookings successfully
+2025-03-16T09:09:48.879Z [Booking Service] [POST /bookings] Attempting to create booking for user_id: 4, event_id: 1
+2025-03-16T09:09:48.879Z [Booking Service] [POST /bookings] Checking event availability via http://localhost:5001/events/1/availability
+2025-03-16T09:09:48.889Z [Booking Service] [POST /bookings] Created new booking with id 6
+2025-03-16T09:10:18.474Z [Booking Service] [PATCH /bookings/:id] Attempting to update booking id 6 to status confirmed
+2025-03-16T09:10:18.569Z [Booking Service] [publishBookingConfirmation] Published booking confirmation event: {"booking_id":6,"username":"ArfatDemo","status":"CONFIRMED"}
+2025-03-16T09:10:18.580Z [Booking Service] [PATCH /bookings/:id] Updated booking id 6 to confirmed and published event
+2025-03-16T09:12:49.041Z [Booking Service] [POST /bookings] Attempting to create booking for user_id: 4, event_id: 3
+2025-03-16T09:12:49.041Z [Booking Service] [POST /bookings] Checking event availability via http://localhost:5001/events/3/availability
+2025-03-16T09:12:49.148Z [Booking Service] [POST /bookings] Created new booking with id 7
+2025-03-16T09:12:51.406Z [Booking Service] [PATCH /bookings/:id] Attempting to update booking id 7 to status confirmed
+2025-03-16T09:12:51.425Z [Booking Service] [publishBookingConfirmation] Published booking confirmation event: {"booking_id":7,"username":"ArfatDemo","status":"CONFIRMED"}
+2025-03-16T09:12:51.428Z [Booking Service] [PATCH /bookings/:id] Updated booking id 7 to confirmed and published event
+2025-03-19T04:40:34.982Z [Booking Service] [app.listen] Booking backend running on port 5002
